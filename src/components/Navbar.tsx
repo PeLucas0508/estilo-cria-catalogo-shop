@@ -10,8 +10,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 px-4 md:px-6">
           <div className="flex items-center gap-2">
             <Menu className="md:hidden h-6 w-6" />
-            <a href="/" className="text-2xl font-display font-bold text-brand-darkblue">
-              Estilo<span className="text-brand-red">Cria</span>
+            <a href="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/dd28df56-0a30-426c-b764-d5df8632113f.png" 
+                alt="LAHYZ Sublime Logo" 
+                className="h-10 w-auto"
+              />
             </a>
           </div>
           
@@ -54,3 +58,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
