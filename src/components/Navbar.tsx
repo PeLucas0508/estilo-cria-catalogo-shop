@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ShoppingCart, Search, Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -14,7 +13,7 @@ const Navbar = () => {
               <img 
                 src="/lovable-uploads/dd28df56-0a30-426c-b764-d5df8632113f.png" 
                 alt="LAHYZ Sublime Logo" 
-                className="h-10 w-auto"
+                className="h-16 w-auto"
               />
             </a>
           </div>
@@ -58,4 +57,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
